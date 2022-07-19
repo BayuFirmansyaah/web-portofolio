@@ -1,0 +1,172 @@
+@import url('./root.css');
+
+/* profile */
+.section-profile{
+  padding-top: 90px;
+  color: white;
+}
+
+.profile-image{
+  width: 415px;
+  max-width:100%;
+  height:415px ;
+  background-color: #e3e3e3;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 4px 4px 1px var(--blue-primary);
+  background-image: url('../img/profile.jpg');
+  background-size: cover;
+  background-position: center;
+  border:1px solid white;
+}
+
+.introduction{
+  width:100%;
+  height: auto;
+  padding:15px 0px 15px 30px;
+}
+
+.jobs-title{
+  font-style: italic;
+  font-size: 22px;
+  font-weight: 300;
+  margin-top:15px;
+}
+
+.name{
+  font-weight: 700;
+  color: var(--blue-primary);
+  margin:15px 0px;
+  font-size: 48px;
+}
+
+.description{
+  font-size: 20px;
+  line-height: 160%;
+  font-weight: 400;
+}
+
+.btn-trigger{
+  font-size: 20px;
+  font-weight: 500;
+  width: 193px;
+  height: 48px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  margin-top: 15px;
+  float: left;
+}
+
+.btn-hire{
+  color: white;
+  background-color: var(--blue-primary);
+}
+
+.btn-donwlod-cv{
+  background-color:white;
+  color:var(--dark-grey);
+  margin-left: 20px;
+}
+/* end  profile*/
+
+
+/* what we do*/
+.section-what-we-do{
+  margin-top:90px;
+}
+
+.box-work{
+  width:100%;
+  height: 150px;
+  background-color: white;
+  margin:15px 0px;
+  border-radius: 8px;
+  padding: 15px;
+  position: relative;
+  color: black;
+  transition: .2s ease-in-out;
+}
+
+.thumbnail-work{
+  height: 100px;
+  width: 100px;
+  background-color: #9c9c9c;
+  border-radius: 50%;
+  margin-top: 10px;
+  float: left;
+  max-width: 20%;
+}
+
+.desc-work{
+  width: 80%;
+  height: 100%;
+  float: right;
+  padding: 0px 15px;
+}
+
+.desc-work h4{
+  font-weight: 700;
+  margin-top: 5px;
+  font-size: 24px;
+  color: var(--blue-primary);
+}
+
+.desc-work p{
+  font-size: 16px;
+  font-weight: 400;
+}
+/* end what we do */
+
+/* portofolio */
+.box-portfolio{
+  width:100%;
+  height: 370px;
+  border-radius: 8px;
+  background-color: white;
+  margin:15px 0px;
+  padding: 15px;
+  transition: .2s ease-in-out;
+}
+
+.box-portfolio:hover,
+.box-work:hover{
+  transition: .2s ease-in-out;
+  box-shadow: 5px 5px 3px var(--blue-primary);
+}
+
+.thumbnail-portfolio{
+  width: 100%;
+  height: 250px;
+  background-color: #9c9c9c;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.box-portfolio .title{
+  margin:15px 0px;
+  font-size: 20px !important;
+  font-weight: 600;
+  line-height: 125%;
+}
+
+.box-portfolio .btn-visit{
+  width: 130px;
+  height: 40px;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  outline: none;
+  background-color: var(--blue-primary);
+  font-size: 18px;
+  position: absolute;
+  bottom: 30px;
+}
+/* end portofolio */
+
+
+/* ipad view */
+
+.profile-image{
+  margin: 0px auto 30px auto;
+}
